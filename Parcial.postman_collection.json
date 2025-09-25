@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "199548bc-c2bb-4944-b61c-74174a5ae4f6",
+		"name": "Parcial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48727795"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/fhir/Patient/1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"resourceType\": \"Patient\",\n  \"identifier\": [\n    {\n      \"system\": \"urn:mrn\",\n      \"value\": \"A659845\"\n    }\n  ],\n  \"name\": [\n    {\n      \"family\": \"lucho\",\n      \"given\": [\"gabriel\"]\n    }\n  ],\n  \"gender\": \"male\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9091/fhir/Patient",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"fhir",
+						"Patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/fhir/Patient/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/fhir/Patient/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fhir",
+						"Patient",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
