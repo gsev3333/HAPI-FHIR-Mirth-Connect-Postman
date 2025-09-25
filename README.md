@@ -80,6 +80,7 @@ luego de instalar abrimos una nueva ventana de http y en la opcion donde esta el
 
 <img width="958" height="534" alt="image" src="https://github.com/user-attachments/assets/257a6c4e-38b9-4017-acb2-a5e460864a75" />
 
+
 https://drive.google.com/file/d/1ceSKcSvf5BDam3abmnkqrRXjlSh97v16/view?usp=sharing 
 https://www.mediafire.com/file/pzss64iu27nqtsk/video+explicativo.MP4/file
 
