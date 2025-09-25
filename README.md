@@ -3,7 +3,7 @@ Vamos a implementar una arquitectura de interoperabilidad clínica que conecte H
 # requisitos princripal para conectarlo
 1. Tener el previamente Docker o docker.desktop
 2. Tener el Minikube
-3. Tener el hapi fhir instalado y previamente configurado con el puerto que se le asigna 
+3. Tener el hapi fhir instalado y previamente configurado con el puerto que se le asigna
 # Proceso de instalacion
 1. Primero nos aseguramos que el docker en linea con el comando
    ```bash
@@ -64,7 +64,12 @@ mostrandose de la siguiente manera
 
 <img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/708d1190-30b4-45c3-84f5-3046f03103ab" />
 
-
+#Instalamos el Postman
+14. usaremos el comando para la instalacion del postman 
+```bash
+sudo snap install postman
+```
+luego de instalar abrimos una nueva ventana de http y en la opcion donde esta el GET(consulta de la informacion) cambimos a POST (para creacion de pacientes) e ingresamos la URL de conexion del hapi fhir que en mi caso es http://localhost:9091/fhir/Patient, de la misma manera dejare el archivo para que puedan importar directamente el [.json]() con el POST y el GET
 
  
 
