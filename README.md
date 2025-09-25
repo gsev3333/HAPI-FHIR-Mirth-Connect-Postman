@@ -69,7 +69,7 @@ mostrandose de la siguiente manera
 ```bash
 sudo snap install postman
 ```
-luego de instalar abrimos una nueva ventana de http y en la opcion donde esta el GET(consulta de la informacion) cambimos a POST (para creacion de pacientes) e ingresamos la URL de conexion del hapi fhir que en mi caso es http://localhost:9091/fhir/Patient, de la misma manera dejare el archivo para que puedan importar directamente el [.json](Parcial.cartero_colección.json) con el POST y el GET
+luego de instalar abrimos una nueva ventana de http y en la opcion donde esta el GET(consulta de la informacion) cambimos a POST (para creacion de pacientes) e ingresamos la URL de conexion del hapi fhir que en mi caso es http://localhost:9091/fhir/Patient, de la misma manera dejare el archivo para que puedan importar directamente el [json](Parcial.cartero_colección.json) con el POST y el GET
 
  
 
