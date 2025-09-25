@@ -41,6 +41,7 @@ dejando el resto de manera predeterminada.
 9. luego entramos en el menu Advanced Queue Settings decidiendo el tiempo que demora en repetir el proceso de reenviar el mensaje "retry interval (ms)" le damos en ok, usaremos en este caso usamos 60000 ms que equivalen a 60 segundos
 # conexion de mirth Connect con Hapi Fhir
 puedes importar directamente la configuracion y hacer las modificaciones correspondientes con el archivo [xml](Parcia_HL7_v2.xml)
+
 11. ahora en En la configuración del HTTP Sender colocamos la URL http://localhost:8080/fhir/Patient.
 De esta manera, Mirth Connect enviará las solicitudes HTTP al servidor HAPI FHIR que está escuchando en el puerto 8080, permitiendo el intercambio de datos clínicos mediante el recurso Patient.
 12. Nos desplazamos hasta abajo en la opcion Headers y agregamos un header con el encabezado Content-Type y el valor application/fhir+json y luego otro con el encabezado Accept y el valor siendo el mismo que el anterior quedando de la siguiente manera
