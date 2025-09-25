@@ -40,6 +40,7 @@ dejando el resto de manera predeterminada.
 8. Procedemos a irnos a Destinations el menu al lado del Source, ahi mismo repetiremos el proceso de "Connector Typer elegimos la opcion HTTP sender", cambimos la opcion Queue Messages por on failure (Mirth intentará reenviarlo más tarde, según la configuración de reintentos del destino)
 9. luego entramos en el menu Advanced Queue Settings decidiendo el tiempo que demora en repetir el proceso de reenviar el mensaje "retry interval (ms)" le damos en ok, usaremos en este caso usamos 60000 ms que equivalen a 60 segundos
 # conexion de mirth Connect con Hapi Fhir
+puedes importar directamente la configuracion y hacer las modificaciones correspondientes con el archivo [xml](Parcial_HL7_v2.xml)
 11. ahora en En la configuración del HTTP Sender colocamos la URL http://localhost:8080/fhir/Patient.
 De esta manera, Mirth Connect enviará las solicitudes HTTP al servidor HAPI FHIR que está escuchando en el puerto 8080, permitiendo el intercambio de datos clínicos mediante el recurso Patient.
 12. Nos desplazamos hasta abajo en la opcion Headers y agregamos un header con el encabezado Content-Type y el valor application/fhir+json y luego otro con el encabezado Accept y el valor siendo el mismo que el anterior quedando de la siguiente manera
@@ -64,7 +65,7 @@ mostrandose de la siguiente manera
 
 <img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/708d1190-30b4-45c3-84f5-3046f03103ab" />
 
-#Instalamos el Postman
+# Instalamos el Postman
 14. usaremos el comando para la instalacion del postman 
 ```bash
 sudo snap install postman
