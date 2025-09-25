@@ -72,9 +72,11 @@ mostrandose de la siguiente manera
 sudo snap install postman
 ```
 luego de instalar abrimos una nueva ventana de http y en la opcion donde esta el GET(consulta de la informacion) cambimos a POST (para creacion de pacientes) e ingresamos la URL de conexion del hapi fhir que en mi caso es http://localhost:9091/fhir/Patient, luego nos paramos en el body para la creacion del paciente con su respectiva estructura y le damos en send (de la misma manera dejare el archivo para que puedan importar directamente el [json](Parcial.postman_collection.json) con el POST y el GET, e importar directamente)
-
+POST
 <img width="958" height="492" alt="image" src="https://github.com/user-attachments/assets/4135e5c7-f870-4ec0-bcf7-83a60add1611" />
 
+GET
+![Imagen de WhatsApp 2025-09-24 a las 23 16 38_a58a0aac](https://github.com/user-attachments/assets/22ba80a1-0c10-4586-958e-e88f4ffd89b2)
 
 15. regresamos a mirth connect y en el dashboard dando doble click en el canal creado para visualizar los pacientes creados y confirmar que tenga una comunicacion el mirth connect el hapi fhir y el postman 
 
